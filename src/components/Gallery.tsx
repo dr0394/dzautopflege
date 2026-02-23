@@ -233,6 +233,56 @@ const Gallery: React.FC = () => {
       image: 'https://i.imgur.com/yQq6zfP.jpeg',
       type: 'image'
     },
+    {
+      id: 54,
+      image: 'https://i.imgur.com/TPM2FHS.jpeg',
+      type: 'image'
+    },
+    {
+      id: 55,
+      image: 'https://i.imgur.com/whXdHl1.jpeg',
+      type: 'image'
+    },
+    {
+      id: 56,
+      image: 'https://i.imgur.com/LOYY1ro.jpeg',
+      type: 'image'
+    },
+    {
+      id: 57,
+      image: 'https://i.imgur.com/vfCqFes.jpeg',
+      type: 'image'
+    },
+    {
+      id: 58,
+      image: 'https://i.imgur.com/kA64lri.jpeg',
+      type: 'image'
+    },
+    {
+      id: 59,
+      image: 'https://i.imgur.com/H8PgfeQ.jpeg',
+      type: 'image'
+    },
+    {
+      id: 60,
+      image: 'https://i.imgur.com/YTMSqhk.jpeg',
+      type: 'image'
+    },
+    {
+      id: 61,
+      image: 'https://i.imgur.com/FYJuMOd.jpeg',
+      type: 'image'
+    },
+    {
+      id: 62,
+      image: 'https://i.imgur.com/eWZNBUg.jpeg',
+      type: 'image'
+    },
+    {
+      id: 63,
+      image: 'https://i.imgur.com/T8ZFB44.jpeg',
+      type: 'image'
+    },
   ];
 
   const openLightbox = (index: number) => {
