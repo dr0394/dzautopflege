@@ -278,11 +278,6 @@ const Gallery: React.FC = () => {
       image: 'https://i.imgur.com/eWZNBUg.jpeg',
       type: 'image'
     },
-    {
-      id: 63,
-      image: 'https://i.imgur.com/T8ZFB44.jpeg',
-      type: 'image'
-    },
   ];
 
   const openLightbox = (index: number) => {
