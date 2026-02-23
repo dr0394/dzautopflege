@@ -288,7 +288,7 @@ const Landing = () => {
               <div className="flex items-center gap-2 text-gray-600">
                 <span className="text-xl font-bold text-gray-900">5,0</span>
                 <span className="text-sm">basierend auf</span>
-                <span className="font-semibold text-primary">44 Bewertungen</span>
+                <span className="font-semibold text-primary">53 Bewertungen</span>
               </div>
 
               {/* Trust Badge */}
