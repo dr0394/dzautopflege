@@ -125,7 +125,7 @@ const Landing = () => {
             <div 
               className="absolute inset-0 bg-cover bg-center opacity-30"
               style={{ 
-                backgroundImage: `url('https://i.imgur.com/BVCjRsS.png')`,
+                backgroundImage: `url('https://i.imgur.com/ExwgSMO.jpeg')`,
               }}
             />
           </div>
