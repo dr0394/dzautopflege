@@ -109,11 +109,6 @@ const Gallery: React.FC = () => {
       type: 'image'
     },
     {
-      id: 26,
-      image: 'https://i.imgur.com/wFro99T.jpeg',
-      type: 'image'
-    },
-    {
       id: 28,
       image: 'https://i.imgur.com/wnqPkZ2.jpg',
       type: 'image'
