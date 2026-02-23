@@ -759,11 +759,11 @@ const Landing = () => {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="group bg-gradient-to-br from-slate-800/90 via-slate-700/80 to-slate-600/90 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-400/30 hover:border-slate-300/50 transition-all hover:scale-105 shadow-[0_0_30px_rgba(148,163,184,0.3)] hover:shadow-[0_0_50px_rgba(148,163,184,0.5)]"
+                  className="group bg-gradient-to-br from-slate-800/90 via-slate-700/80 to-slate-600/90 backdrop-blur-sm rounded-xl overflow-hidden border border-slate-400/30 hover:border-slate-300/50 transition-all hover:scale-105 shadow-[0_0_30px_rgba(148,163,184,0.3)] hover:shadow-[0_0_50px_rgba(148,163,184,0.5)] flex flex-col h-full"
                   style={{ boxShadow: '0 0 20px rgba(0, 0, 0, 0.5)' }}
                 >
                   {/* Before Image */}
-                  <div className="relative h-48 overflow-hidden">
+                  <div className="relative h-48 overflow-hidden flex-shrink-0">
                     <img
                       src={service.beforeImage}
                       alt={`${service.title} - Vorher`}
@@ -795,12 +795,12 @@ const Landing = () => {
                   </div>
 
                   {/* Content */}
-                  <div className="p-6">
+                  <div className="p-6 flex flex-col flex-grow">
                     <h3 className="text-xl font-bold mb-3 text-white font-poppins">{service.title}</h3>
                     <p className="text-gray-300 mb-4 text-sm leading-relaxed font-poppins">{service.description}</p>
-                    
+
                     {/* Features */}
-                    <div className="mb-4">
+                    <div className="mb-4 flex-grow">
                       <h4 className="text-sm font-semibold text-gray-300 mb-2 font-poppins">Was ist enthalten:</h4>
                       <ul className="space-y-1">
                         {service.features.map((feature, featureIndex) => (
@@ -813,7 +813,7 @@ const Landing = () => {
                     </div>
 
                     {/* Price & CTA */}
-                    <div className="flex items-center justify-between pt-4 border-t border-gray-700">
+                    <div className="flex items-center justify-between pt-4 border-t border-gray-700 mt-auto">
                       <div>
                         {service.price && (
                           <div className="flex items-center gap-2">
