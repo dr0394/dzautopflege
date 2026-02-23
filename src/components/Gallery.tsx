@@ -94,6 +94,11 @@ const Gallery: React.FC = () => {
       type: 'image'
     },
     {
+      id: 22,
+      image: 'https://i.imgur.com/DPxRN9j.jpg',
+      type: 'image'
+    },
+    {
       id: 23,
       image: 'https://i.imgur.com/wFro99T.jpg',
       type: 'image'
